@@ -44,7 +44,7 @@ start();
 
 const io = socket(server, {
   cors: {
-    origin: "https://spooky-api.onrender.com",
+    origin: "https://spooky-chat-app.onrender.com",
     credentials: true,
   },
 });
